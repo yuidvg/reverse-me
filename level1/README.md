@@ -49,7 +49,7 @@ No obvious password string appears, which suggests it might be hidden in data th
 ```bash
 $ objdump -d level1 | less   # and locate <main>
 ```
-Inside `main` we quickly notice the sequence:
+Inside `main` I quickly notice the sequence:
 ```asm
 11e0: 8b 83 08 e0 ff ff    mov -0x1ff8(%ebx),%eax
 11e6: 89 45 86             mov %eax,-0x7a(%ebp)
