@@ -36,7 +36,7 @@ Nope.
 Please enter key:
 %23s            # scanf format
 ```
-We also notice the word **delabere** appearing after these strings.
+I also notice the word **delabere** appearing after these strings.
 
 ### 3. Disassemble `main`
 ```bash
@@ -140,4 +140,4 @@ gcc -Wall -Wextra -O2 source.c -o level2_copy
 | `source.c`        | Behaviour-equivalent C program.         |
 | `README.md`       | This explanation.                       |
 
-Happy cracking! 
+Happy cracking!
