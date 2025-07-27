@@ -126,8 +126,8 @@ otherwise `Nope.`
 
 Compile & run:
 ```bash
-cd medium
-gcc -Wall -Wextra -O2 source.c -o level2_copy
+cd level2
+cc -Wall -Wextra -O2 source.c -o level2_copy
 ./level2_copy
 ```
 

@@ -111,7 +111,7 @@ The corresponding executable behaves exactly like the original crackme.
 
 ---
 
-## Files in the `easy/` directory
+## Files in the `level1/` directory
 | File | Purpose |
 |------|---------|
 | `password.txt` | Contains the secret password (`__stack_check`). |
@@ -122,8 +122,8 @@ The corresponding executable behaves exactly like the original crackme.
 
 ## Compilation instructions
 ```bash
-cd easy
-gcc -Wall -Wextra -O2 source.c -o level1_copy
+cd level1
+cc -Wall -Wextra -O2 source.c -o level1_copy
 ./level1_copy
 ```
 
